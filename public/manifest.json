@@ -1,0 +1,21 @@
+{
+  "name": "Tiêm Chủng Việt",
+  "short_name": "Tiêm Chủng",
+  "description": "Ứng dụng theo dõi tiêm chủng cho trẻ em Việt Nam",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "icons": [
+    {
+      "src": "https://picsum.photos/seed/vaccine/192/192",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://picsum.photos/seed/vaccine/512/512",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
