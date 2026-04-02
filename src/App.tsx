@@ -148,16 +148,16 @@ export default function App() {
 
       <main className="max-w-2xl mx-auto p-4 space-y-6 pb-12">
         {/* Date Input Section */}
-        <section className="glass p-6 rounded-3xl space-y-4 border-2 border-primary/20 shadow-sm">
+        <section className="glass p-4 md:p-6 rounded-3xl space-y-4 border-2 border-primary/20 shadow-sm">
           <h2 className="font-bold text-lg text-center">Nhập ngày sinh để tra cứu</h2>
-          <div className="relative max-w-sm mx-auto">
-            <Calendar className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground" />
+          <div className="relative max-w-sm mx-auto w-full">
+            <Calendar className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground" />
             <input
               type="date"
               value={birthDate}
               onChange={handleDateChange}
               max={new Date().toISOString().split('T')[0]}
-              className="w-full pl-12 pr-4 py-4 rounded-xl border-2 border-border bg-background focus:border-primary focus:ring-4 focus:ring-primary/10 outline-none text-lg font-medium transition-all cursor-pointer"
+              className="w-full max-w-full pl-10 pr-3 py-3 md:py-4 rounded-xl border-2 border-border bg-background focus:border-primary focus:ring-4 focus:ring-primary/10 outline-none text-base md:text-lg font-medium transition-all cursor-pointer"
             />
           </div>
           
